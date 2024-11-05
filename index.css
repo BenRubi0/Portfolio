@@ -83,13 +83,20 @@ body {
     font-size: xx-large;
 }
 
-@keyframes itemHoverEffect {
-    0% {
-        width: 150px;
-        height: 150px;
-    }
-    100% {
-        width: 200px;
-        height: 200px;
-    }
+#showcase-assignments-text h2 {
+    position: relative;
+    margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 4px 3px black;
+    padding-top: 5%;
+}
+
+#s2-item-1 {
+    background: url("Images/Assignments/science-lab.png") no-repeat center/cover;
+    background-size: 85%;
+    background-color: rgb(2, 6, 24);
 }
