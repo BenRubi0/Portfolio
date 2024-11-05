@@ -1,0 +1,28 @@
+#heading-text {
+    position: absolute;
+    left: 37%;
+    top: 10%;
+    font-weight: 600;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#data-table {
+    position: absolute;
+    left: 35%;
+    top: 35%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#data-table th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 15px;
+}
+
+#data-table td {
+    text-align: left;
+    padding: 15px;
+    background-color: #dcdcdc;
+    border: 1px solid #a2a2a2;
+}

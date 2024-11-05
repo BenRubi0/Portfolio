@@ -1,0 +1,29 @@
+#login-form-outer-text {
+    position: absolute;
+    left: 37%;
+    top: 10%;
+    font-weight: 600;
+    font-size: 35px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#login-info {
+    position: relative;
+    font-size: 35px;
+    left: 31%;
+}
+
+#login-form {
+    position: absolute;
+    left: 40%;
+    top: 33%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 4%;
+    font-weight: 600;
+    font-size: larger;
+}
+
+#submit-button {
+    position: relative;
+    left: 40%;
+}

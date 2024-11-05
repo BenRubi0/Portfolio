@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="form.css">
+    <script type="text/javascript" src="loginform.js" defer></script>
+    <title>Form</title>
+</head>
+<body>
+    <div id="login-form-holder">
+        <span id="login-form-outer-text">
+            <h1 id="company-name">BenInc Records</h1>
+            <h2 id="login-info">Admin Login</h2>
+        </span>
+
+        <form id="login-form">
+            <label for="input-name">Name:</label><br>
+            <input type="text" id="input-name" name="input-name" value="" placeholder="Name"><br><br>
+            <label for="input-password">Password:</label><br>
+            <input type="password" id="input-password" name="input-password" value="" placeholder="Password"><br><br>
+            <input type="submit" id="submit-button" name="submit-button" value="Login"><br>
+        </form>
+
+        <div id="hint">
+            <span id="password-info" style="visibility: hidden;">
+                <p>
+                    The password must be longer or equal to 2 characters and <br> it must have the letter 'b' in it!
+                </p>
+            </span>
+            <button onclick="document.getElementById('password-info').style.visibility = 'visible'; this.style.visibility = 'hidden';">Show hint</button>
+        </div>
+    </div>
+</body>
+</html>

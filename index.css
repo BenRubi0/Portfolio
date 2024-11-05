@@ -1,0 +1,95 @@
+body {
+    background-image: linear-gradient(90deg, rgb(106, 201, 210), rgb(240, 243, 147));
+    background-size: 400% 400%;
+}
+
+#main-content {
+    display: grid;
+    align-items: center;
+}
+
+#heading-text {
+    position: relative;
+    margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 4px 3px black;
+}
+
+#heading-text h2 {
+    position: relative;
+    margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 4px 3px black;
+}
+
+
+#showcase-items {
+    position: relative;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.showcase-item {
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    border: 5px solid #101010;
+    border-radius: 25px;
+    margin: 10px;
+    background-color: rgb(2, 6, 24);
+    text-align: center;
+    line-height: 160px;
+    font-size: 1.5em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.7);
+    transition: transform 0.4s ease;
+}
+
+#item-1 {
+    background: url("Images/Gradients-project.png") no-repeat center/cover;
+    background-size: 85%;
+    background-color: rgb(2, 6, 24);
+}
+
+#item-2 {
+    background: url("Images/Links-project.png") no-repeat center/cover;
+    background-size: 85%;
+    background-color: rgb(2, 6, 24);
+}
+
+#item-3 {
+    background: url("Images/FormAndTable-project.png") no-repeat center/cover;
+    background-size: 85%;
+    background-color: rgb(2, 6, 24);
+}
+
+.showcase-item:hover {
+    transform: scale(1.05);
+}
+
+#links {
+    position: absolute;
+    padding-inline: 45%;
+    padding-top: 10%;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+@keyframes itemHoverEffect {
+    0% {
+        width: 150px;
+        height: 150px;
+    }
+    100% {
+        width: 200px;
+        height: 200px;
+    }
+}
