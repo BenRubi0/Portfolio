@@ -1,0 +1,33 @@
+body {
+    background-image: linear-gradient(50deg, rgb(112, 157, 255), rgb(26, 47, 241));
+    background-repeat:no-repeat;
+    background-size: 400% 2000%;
+}
+
+#main-content {
+    display: block;
+}
+
+#heading-text {
+    position: relative;
+    margin: 0 auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 700;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    text-shadow: 0 4px 3px black;
+}
+
+.item {
+    position: relative;
+    margin: 0 auto;
+    padding: 15px;
+    width: 36.5%;
+    filter: drop-shadow(15px 15px 10px rgba(0, 0, 0, 0.7));
+    transition: transform 0.5s ease;
+}
+
+.item:hover {
+    transform: scale(1.05);
+}

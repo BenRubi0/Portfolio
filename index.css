@@ -100,3 +100,15 @@ body {
     background-size: 85%;
     background-color: rgb(2, 6, 24);
 }
+
+#s2-item-2 {
+    background: url("Images/Assignments/math.png") no-repeat center/cover;
+    background-size: 85%;
+    background-color: rgb(2, 6, 24);
+}
+
+#s2-item-3 {
+    background: url("Images/Assignments/web-design.png") no-repeat center/cover;
+    background-size: 85%;
+    background-color: rgb(2, 6, 24);
+}
